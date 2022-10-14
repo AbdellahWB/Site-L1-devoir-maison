@@ -1,0 +1,242 @@
+body#form
+ {
+background-image:url(fondecran.jpg);
+margin:0;
+background-color: #2c3e50;
+
+ }
+ body#form2
+ {
+background-image:url(black.png);
+margin:0;
+background-color: #2c3e50;
+
+ }
+ul{
+   
+   display: table;
+   text-align: center;
+}
+ul li{
+     display: inline-block;
+     float: none;
+}
+nav 
+{
+  width: 100%;
+  background-color:RGB(12, 47, 48,0.9);
+
+
+}
+nav > ul
+{
+margin :0px;
+padding : 5px ;
+
+
+}
+nav > ul::after
+{
+content: "";
+display: block;
+clear :both;
+
+}
+nav > ul > li
+{float:left;
+  position: relative;
+}
+nav > ul >li >a
+{
+  padding :20px 30px;
+  color: #FFF;
+}
+nav > ul > li:hover a{
+  padding: 15px 30px 20px 30px;
+}
+nav li {
+  liqt-style-type : none;
+}
+.submenu 
+{
+display: none;
+}
+nav a 
+{
+display: inline-block;
+text-decoration: none ;
+}
+
+nav li:hover .submenu 
+{
+
+  display: inline-block;
+  position: absolute;
+  top:100%;
+  left: 0px;
+  padding :0px;
+  z-index :1000;
+
+}
+.submenu li {
+  border-bottom: 1px:solid #CCC;
+
+}
+.submenu li a {
+  padding: 15px 30px;
+  font-size:13px;
+  color:#222538;
+  width: 279px;
+}
+.index:hover
+{
+border-top:5px solid #e44d26;
+background-color: RGBa(228,77,38,0.15);
+}
+.TD1:hover
+{
+border-top:5px solid #424ef5;
+background-color: RGBa(66, 78, 245,0.15);
+}
+.TD2:hover
+{
+border-top:5px solid #04c998;
+background-color: RGBa(5, 166, 67,0.15);
+}
+.TD3:hover
+{
+border-top:5px solid #bec402;
+background-color: RGBa(190, 196, 2,0.15);
+}
+.TD4:hover
+{
+border-top:5px solid RGB(5, 166, 67);
+background-color: RGBa(4, 201, 152,0.15)
+}
+.TD5:hover
+{
+border-top:5px solid RGB(49, 187, 191);
+background-color: RGBa(49, 187, 191,0.15)
+}
+.index .submenu 
+{
+  background-color: RGB(245, 141, 66);
+}
+.TD1 .submenu 
+{
+  background-color: RGB(69, 106, 140);
+}
+.TD2 .submenu 
+{
+  background-color: RGB(45, 166, 129);
+}
+.TD3 .submenu 
+{
+  background-color: RGB(150,175,40);
+}
+.TD4 .submenu 
+{
+  background-color: RGB(5, 166, 67);
+}
+.TD5 .submenu 
+{
+  background-color: RGB(49, 187, 191);
+}
+.submenu li:hover a{
+  color: #EEE;
+  font-weight: bold;
+}
+.index .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+.TD1 .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+.TD2 .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+.TD3 .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+.TD4 .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+.TD5 .submenu li:hover
+{
+  background-color : RGB(210,77,60);
+}
+table {
+  height:200px;
+    width:1000px;
+ border-width:1px; 
+ border-style:solid; 
+ border-color:black;
+ }
+
+.C1{
+    text-align:center;
+    height:70px;
+    width:520px;
+    background-color:white;
+	width;100%;
+}
+
+.C2{
+    text-align:center;
+    height:40px;
+    width:100px;
+    background-color:#B7BB8E;
+	color:red;
+    border:1px solid black;
+}
+
+.C3{
+    text-align:center;
+    height:40px;
+    width:100px;
+    background-color:orange;
+    border:1px solid black;
+}
+
+.C4{
+    text-align:center;
+    height:40px;
+    width:200px;
+    background-color:orange;
+    border:1px solid black;
+}
+
+.C5{
+    text-align:center;
+    height:40px;
+    width:200px;
+    background-color:orange;
+    border:1px solid black;
+}
+#tz {
+font-size: 140%; 
+ color: white; 
+ font-family: sans-serif;
+
+}
+#tp {
+font-size: 90%; 
+ color: black; 
+ font-family: sans-serif;
+
+}
+#ts {
+font-size: 109%; 
+ color: white; 
+ font-family: sans-serif;
+
+}
+fieldset {
+  background-color: ;
+  border:3px solid white;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+       
+        <link rel="stylesheet"     href="css3.css">
+        <meta charset="UTF-8">
+    
+        <body id="form">
+      
+      
+       <center> <div id="tz">
+            
+            
+        
+
+        <nav>
+
+            <ul>
+                 <li class ="index"><a href="index.html"> index </a>
+                 <ul class="submenu">
+                     <li><a href="index.html"> page d'acceuil </a></li>
+                 </ul>
+                 </li>
+         
+                 
+                 <li class="TD2"><a href="TD2_page1.html"> TD2 </a>
+                 <ul class="submenu">
+                     <li><a href="TD2_page1.html"> TD2_page1 </a></li>
+                     <li><a href="TD2_page2.html"> TD2_page2</a></li>
+                 </ul>
+                 </li>
+                 <li class="TD3"><a href="TD3_page1.html"> TD3 </a>
+                 <ul class="submenu">
+                     <li><a href="TD3_page1.html"> TD3_page1 </a></li>
+                     <li><a href="TD3_page2.html"> TD3_page2</a></li>
+                     <li><a href="TD3_page3.html"> TD3_page3 </a></li>
+                     <li><a href="TD3_page4.html"> TD3_page4</a></li>
+                 </ul>
+                 </li>
+                 <li class= "TD4"><a href="TD4_page2.html"> TD4 </a>
+                 <ul class="submenu">
+                     
+                     <li><a href="TD4_page2.html"> TD4_page2 </a></li>
+                     <li><a href="TD4_page3.html"> TD4_page3 </a></li>
+                     <li><a href="TD4_page4.html"> TD4_page4 </a></li>
+         
+                 </ul>
+                 </li>
+                 <li class= "TD5"><a href="TD5_page1.html"> TD5 </a>
+                 <ul class="submenu">
+                     <li><a href="TD5_page1.html"> TD5_page1 </a></li>
+                     <li><a href="TD5_page2.html"> TD5_page2 </a></li>
+                     
+         
+                 </ul>
+                 </li>
+             </ul>
+         </nav>
+        
+        
+         </div></center>
+     </head>
+        
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+  
+    
+
+
+<center>                    
+    <div id="tp">
+
+
+
+                
+                <form>
+                    <table border=1px solid-white>
+                        <td class="C2" colspan="2"><legend style="text-align:center"> Formulaire </legend></td>
+                        <tbody><tr>
+
+                            <td >
+                                <table class="table1" border=1px solid-white>
+                                    <tbody><tr>
+                                        <td  style="background-color:#398169;"><label for="nom">Nom :</label></td>
+                                        <td ><input type="text" id="nom" name="nom" placeholder="Votre Nom.." size="40" maxlength="30" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="mdp">Mot de passe :</label></td>
+                                        <td ><input type="password" required="" maxlength="7" id="mdp" name="mdp" placeholder="Votre Mot de Passe.." size="40"></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="mail"> Adresse Mail :</label></td>
+                                        <td ><input type="email" id="mail" name="mail" placeholder="Votre Mail.." size="40" maxlength="40" required=""></td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        
+                        
+                        <tr>
+                            <td >
+                                <table class="table1" border="1">
+                                    <tbody><tr>
+                                        <td class="C2" colspan="2"><legend style="text-align:center"> Adresse client :</legend></td>
+                                    </tr>
+                                    <tr> 
+                                        <td  style="background-color:#398169;"><label for="nom">Nom :</label></td>
+                                        <td ><input type="text" id="nom" name="nom" placeholder="Votre Nom.." size="40" maxlength="30" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="prenom">Prénom :</label></td>
+                                        <td ><input type="text" id="prenom" name="prenom" placeholder="Votre Prénom.." size="40" maxlength="30" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="adresse">Adresse :</label></td>
+                                        <td ><input type="text" id="adresse" name="adresse" placeholder="Votre Adresse.." size="40" maxlength="60" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="ville">Ville :</label></td>
+                                        <td ><input type="text" id="ville" name="ville" placeholder="Votre Ville.." size="40" maxlength="60" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="poste">Code Postal :</label></td>
+                                        
+                                        <td ><input id="postale" name="codepostale" onkeyup="value=isNaN(parseFloat(value))||value<0||value>99999?00:value" type="number" maxlength="5" placeholder="Entrez votre code postale" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td  style="background-color:#398169;"><label for="pays">Pays :</label></td>
+                                        <td ><input type="text" id="pays" name="pays" placeholder="Votre Pays.." size="40" maxlength="30" required=""></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="C2" colspan="2"><center>   
+                                        <input type="file" name="filename" accept="jpeg,png"  >   
+                                        <input type="reset" value="Réinitialisation">       
+                                        <button type="submit" value="Envoyer">
+                                            <img classe="mybutton" src="button.png" width="70" height="10"/>
+                                        </button>
+                                        
+                                        
+                                        </center></td>
+                                    </tr>
+
+                                </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody></table>
+
+                </form>
+                <br><br><br>
+                
+</div></center>                 
+
+
+
+
+</body>
+</center>                   
+
+</body>
+</html>

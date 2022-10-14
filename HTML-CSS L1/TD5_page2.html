@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+     <head>
+       
+        <link rel="stylesheet"     href="css3.css">
+        <meta charset="UTF-8">
+    
+        <body id="form2">
+      
+      
+       <center> <div id="tz">
+            
+            
+        
+
+        
+        <nav>
+
+            <ul>
+                 <li class ="index"><a href="index.html"> index </a>
+                 <ul class="submenu">
+                     <li><a href="index.html"> page d'acceuil </a></li>
+                 </ul>
+                 </li>
+         
+                 
+                 <li class="TD2"><a href="TD2_page1.html"> TD2 </a>
+                 <ul class="submenu">
+                     <li><a href="TD2_page1.html"> TD2_page1 </a></li>
+                     <li><a href="TD2_page2.html"> TD2_page2</a></li>
+                 </ul>
+                 </li>
+                 <li class="TD3"><a href="TD3_page1.html"> TD3 </a>
+                 <ul class="submenu">
+                     <li><a href="TD3_page1.html"> TD3_page1 </a></li>
+                     <li><a href="TD3_page2.html"> TD3_page2</a></li>
+                     <li><a href="TD3_page3.html"> TD3_page3 </a></li>
+                     <li><a href="TD3_page4.html"> TD3_page4</a></li>
+                 </ul>
+                 </li>
+                 <li class= "TD4"><a href="TD4_page2.html"> TD4 </a>
+                 <ul class="submenu">
+                     
+                     <li><a href="TD4_page2.html"> TD4_page2 </a></li>
+                     <li><a href="TD4_page3.html"> TD4_page3 </a></li>
+                     <li><a href="TD4_page4.html"> TD4_page4 </a></li>
+         
+                 </ul>
+                 </li>
+                 <li class= "TD5"><a href="TD5_page1.html"> TD5 </a>
+                 <ul class="submenu">
+                     <li><a href="TD5_page1.html"> TD5_page1 </a></li>
+                     <li><a href="TD5_page2.html"> TD5_page2 </a></li>
+                     
+         
+                 </ul>
+                 </li>
+             </ul>
+         </nav>
+        
+        
+         </div></center>
+     </head>
+        
+
+
+<center>                    
+    <div id="ts">
+
+<form>
+      <fieldset >
+       <legend>Questionnaire</legend> 
+ 
+       <p>
+           Cocher la bonne case:
+
+           <input type="radio" name="HTML 5" value="HTML 5" id="HTML 5" /> <label for="HTML 5">HTML 5</label>
+           <input type="radio" name="CSS 3" value="CSS 3" id="CSS 3" /> <label for="CSS3">CSS 3</label>
+           <input type="radio" name="PHP 5" value="PHP 5" id="PHP 5" /> <label for="PHP 5">PHP 5</label>
+           <input type="radio" name="JavaScript" value="JavaScript" id="JavaScript" /> <label for="JavaScript">JavaScript</label>
+           <input type="radio" name="MySql" value="MySQL" id="MySQL" /> <label for="MySQL">MySQL</label>
+       </p>
+ 
+       <p>
+           <label for="nom">Nom:</label>
+          <input type="text" name="nom" id="nom" />
+
+          <label for="Tel">Tel:</label>
+          <input type="number" name="Tel" id="Tel" />
+         
+           <label for="Date de naissance">Date de naissance</label>
+          <input type="Text" name="Date de naissance" id="Date de naissance" />
+          
+          <label for="E-mail">E-mail</label>
+          <input type="text" name="E-mail" id="E-mail" />
+  
+       </p>
+        <p>
+        <center><input type="submit" name="Envoyer" value="Envoyer" /></center>
+        </p>
+   </fieldset>
+  
+</form>
+   
+        <form>
+      <fieldset>
+       <legend>Questionnaire</legend> 
+ 
+       <p>
+           1- Où se trouvent les glandes sudoripares d'un chien ?<br>
+           <input type="radio" name="lieu" value="Sous ses pates" >Sous ses pates<br>
+           <input type="radio" name="lieu" value="Sur son visage" >Sur son visage<br>
+           <input type="radio" name="lieu" value="Ses orreils" >Ses orreils
+       </p>
+        <p>
+           2- Qui raconte les aventures de Sherlock Holmes ?<br>
+           <input type="radio" name="name" value="Rhinou">Rhinou<br>
+           <input type="radio" name="name" value="Waston" >Waston<br>
+           <input type="radio" name="name" value="Barrow" >Barrow
+       </p>
+       <p>
+           3- Combien y a-t-il de miles marins dans un degré de latitude ?<br>
+           <input type="radio" name="nbr" value="80" >80<br>
+           <input type="radio" name="nbr" value="60" >60<br>
+           <input type="radio" name="nbr" value="30">30
+       </p>
+         <p>
+           4-Quel pays a construit le premier métro ?<br>
+           <input type="radio" name="pays" value="USA">USA<br>
+           <input type="radio" name="pays" value="Canada" >Canada<br>
+           <input type="radio" name="pays" value="Espagne" >Espagne
+       </p>
+   </fieldset>
+</form>
+<fieldset >
+       <legend>Formulaire</legend> 
+              <form method="post" action="traitement.php">
+                <p>
+           <label for="nom">Nom:</label>
+          <input type="text" name="nom" id="nom" />
+
+          <label for="Tel">Tel:</label>
+          <input type="number" name="Tel" id="Tel" />
+         
+           <label for="Date de naissance">Date de naissance</label>
+          <input type="Text" name="Date de naissance" id="Date de naissance" />
+          
+          <label for="E-mail">E-mail</label>
+          <input type="text" name="E-mail" id="E-mail" />
+  
+       </p>
+        <p>
+        <center><input type="submit" name="Envoyer" value="Envoyer" /></center>
+        </p>
+              <label for="jour">Jour de naissance:</label>
+           <SELECT name="nbr" size="1">
+                <OPTION>01
+                <OPTION>02
+                <OPTION>03
+                <OPTION>04
+                <OPTION>05
+                <OPTION>06
+                <OPTION>07
+                <OPTION>08
+                <OPTION>09
+                <OPTION>10
+                <OPTION>11
+                <OPTION>12
+                <OPTION>13
+                <OPTION>14
+                <OPTION>15
+                <OPTION>16
+                <OPTION>17
+                <OPTION>18
+                <OPTION>19
+                <OPTION>20
+                <OPTION>21
+                <OPTION>22
+                <OPTION>23
+                <OPTION>24
+                <OPTION>25
+                <OPTION>26
+                <OPTION>27
+                <OPTION>28
+                <OPTION>29
+                <OPTION>30
+               </SELECT>
+              </form>
+              <form method="post" action="traitement.php">
+              <label for="jour">Mois de naissance:</label>
+           <SELECT name="nbr" size="1">
+                <OPTION>01
+                <OPTION>02
+                <OPTION>03
+                <OPTION>04
+                <OPTION>05
+                <OPTION>06
+                <OPTION>07
+                <OPTION>08
+                <OPTION>09
+                <OPTION>10
+                <OPTION>11
+                <OPTION>12
+              
+               </SELECT>
+              </form>
+              <form method="post" action="traitement.php">
+              <label for="jour">Année de naissance:</label>
+           <SELECT name="nbr" size="1">
+                <OPTION>1999
+                <OPTION>1998
+                <OPTION>1999
+                <OPTION>2000
+                <OPTION>2001
+                <OPTION>2002
+                <OPTION>2003
+                <OPTION>2004
+                <OPTION>2005
+                <OPTION>2006
+                <OPTION>2007
+               </SELECT>
+              </form>
+              <form method="post" action="traitement.php">
+              <label for="jour">Pays de naissance.:</label>
+           <SELECT name="nbr" size="1">
+                <OPTION>Maroc
+                <OPTION>France
+                <OPTION>USA
+                <OPTION>Canada
+                <OPTION>Algerie
+                <OPTION>Tunisie
+                <OPTION>Egypte
+                <OPTION>Belgique
+                <OPTION>Russie
+                <OPTION>Irlende
+                
+               </SELECT>
+              </form>
+          </fieldset>
+
+
+            
+            
+            </body>
+    </html>
