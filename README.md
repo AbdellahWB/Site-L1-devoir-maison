@@ -1,4 +1,4 @@
-Mon site L1 pour un devoir maison en HTML/CSS <br>
+Mon site L1 pour un devoir maison en première année en HTML/CSS <br>
 
 il y'a plusieurs exercices sous forme de TD à decouvrir :)
 <br>
